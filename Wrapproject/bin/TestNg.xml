@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="Suite" parallel="false">
+	<test name ="Test" preserve-order="true">
+		<classes>
+			<class name = "TestNgPack.Wrap_Test">
+				<methods>
+					<include name="openbrowser" />
+					<include name="Login" />
+					<include name="createwrap" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
